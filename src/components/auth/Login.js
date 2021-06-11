@@ -33,6 +33,11 @@ const Login = () => {
         <div className="form-usuario">
             <div className="contenedor-form sombra-dark">
                 <h1>Iniciar sesión</h1>
+                <p className="text-center">
+                    <span className="rojo">
+                        Entrar por ir a proyectos (BACK NO LISTO)
+                    </span>
+                </p>
                 <form onSubmit={onSubmitt}>
                     <div className="campo-form">
                         <label htmlFor="email">Email</label>
@@ -67,7 +72,7 @@ const Login = () => {
                 <Link to={"/nueva-cuenta"} className="enlace-cuenta">
                     Obtener cuenta
                 </Link>
-                <Link to={"/proyectos"} className="enlace-cuenta">
+                <Link to={"/proyectos"} className="enlace-cuenta rojo">
                     ir a proyectos
                 </Link>
             </div>

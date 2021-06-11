@@ -368,3 +368,11 @@ aside {
     background-color: rgb(230, 78, 78);
     color: var(--blanco);
 }
+
+.text-center {
+    text-align: center;
+}
+
+.rojo {
+    color: red;
+}
